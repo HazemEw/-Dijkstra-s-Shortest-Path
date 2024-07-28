@@ -23,7 +23,6 @@ This project implements Dijkstra's Shortest Path algorithm to find the shortest 
 ### Installation and Running
 
   **Clone the repository**:
-   ```bash
    git clone https://github.com/HazemEw/dijkstras-shortest-path.git
 
 ## Screenshot
