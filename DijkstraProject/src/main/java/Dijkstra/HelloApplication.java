@@ -23,7 +23,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         Group root = new Group();
-        InputStream stream = new FileInputStream("src\\resources\\Map.jpg");
+        InputStream stream = new FileInputStream("src/main/resources/Map.jpg");
         Image image = new Image(stream, 1150, 765, false, false);
         ImageView WorldMap = new ImageView();
         WorldMap.setImage(image);
@@ -52,7 +52,7 @@ public class HelloApplication extends Application {
         run.setPrefWidth(100);
         testAreaBox.getChildren().addAll(path, shortestPath);
         root.getChildren().addAll(WorldMap, box);
-        File f = new File("C:\\Users\\hp\\Desktop\\Algorithem\\DijkstraProject\\src\\main\\resources\\City data.txt");
+        File f = new File("src/main/resources/City data.txt");
         Scanner sc = new Scanner(f);
         int index = 1;
         String firstline = sc.nextLine();
@@ -212,7 +212,7 @@ public class HelloApplication extends Application {
         }
     }
     public static void readAjc(int numberOfAdjacent) throws FileNotFoundException {
-        File f = new File("C:\\Users\\hp\\Desktop\\Algorithem\\DijkstraProject\\src\\main\\resources\\Adjacent.txt");
+        File f = new File("src/main/resources/Adjacent.txt");
         Scanner sc = new Scanner(f);
         Vertex firstV = null;
         Vertex secondV = null;
