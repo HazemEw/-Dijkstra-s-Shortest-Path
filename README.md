@@ -15,12 +15,19 @@ This project implements Dijkstra's Shortest Path algorithm to find the shortest 
 
 ## Getting Started
 
+
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
 - Maven (for building the project)
 
 ### Installation and Running
 
-1. **Clone the repository**:
+  **Clone the repository**:
    ```bash
    git clone https://github.com/HazemEw/dijkstras-shortest-path.git
+
+## Screenshot
+
+![image](https://github.com/user-attachments/assets/b32907b6-f4ff-4222-826a-55a8f480f854)
+
+   
